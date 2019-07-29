@@ -10,7 +10,7 @@
    </head>
    <body>
       <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
-         <a class="navbar-brand" href="#">EasyLicenseLegacy</a>
+         <a class="navbar-brand" href="#">EasyLicense-Legacy</a>
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item active">
