@@ -1,6 +1,6 @@
 <?php
 
-define('DB_SERVER', 'fullnet.pl');
+define('DB_SERVER', '51.68.27.236');
 define('DB_USERNAME', 'geniusho_test');
 define('DB_PASSWORD', 'test');
 define('DB_NAME', 'geniusho_test');
