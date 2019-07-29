@@ -1,0 +1,86 @@
+h1 {
+	text-align: center;
+}
+
+table {
+	text-align: center;
+}
+
+#all {
+	height: 100vh;
+	padding-top: 60px;
+}
+
+html, body {
+    	height:100%;
+} 
+
+body {
+	background-color: #343a40;
+	background-size: auto 100%;
+	color: #fff;
+	text-align: center;
+}
+
+.navbar {
+	overflow-y: hidden;
+}
+
+.input {
+	width: 30%;
+	height: 50vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-inline{
+	min-width: 107px;
+}
+
+input[type=checkbox].css-checkbox {
+	position: absolute;
+	z-index: -1000;
+	left: -1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+input[type=checkbox].css-checkbox+label.css-label {
+	padding-left: 41px;
+	height: 36px;
+	display: inline-block;
+	line-height: 36px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+input[type=checkbox].css-checkbox:checked+label.css-label {
+	background-position: 0 -36px;
+}
+
+label.css-label {
+	background-image: url(https://api.geniush.ovh/admin/img/box.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-link {
+	cursor: pointer;
+}
+
+.table-responsive {
+	padding-bottom: 60px
+}
