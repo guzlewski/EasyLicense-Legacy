@@ -1,6 +1,6 @@
 # EasyLicense-Legacy
  
-This repository contains fully working C# - Web license system. Code is a bit messy but working good, it's old project only critical security patches. For now for in C# part [Leaf.xNet library](https://github.com/csharp-leaf/Leaf.xNet) is needed.
+This repository contains fully working C# - Web license system. C# part require [Leaf.xNet library](https://github.com/csharp-leaf/Leaf.xNet) for networking. I'm working on new version this is generally not supported, only critical fixes.
 
 ## Features:
 - every license key is binded to hwid on first use and is valid only one this pc
