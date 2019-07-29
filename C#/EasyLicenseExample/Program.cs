@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             string key = "1111111111111111111111111111111111111111111111111111111111111111";
-            string url = "";
-            string productName = "";
+            string url = "http://geniush-easylicense.herokuapp.com/www/login/index.php";
+            string productName = "Test";
 
             var license = new EasyLicense.License.Authorize();
             license.ServerAuthUrl = url;
@@ -17,9 +17,11 @@
             {
                 System.Console.WriteLine("Auth fail!");
                 System.Console.WriteLine("Reason: " + license.ResponseStatus);
+                System.Console.ReadLine();
                 return;
             }
 
+            System.Console.ReadLine();
         }
     }
 }
