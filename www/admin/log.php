@@ -10,7 +10,7 @@
    </head>
    <body>
       <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
-         <a class="navbar-brand" href="#">Auth.black</a>
+         <a class="navbar-brand" href="#">EasyLicense-Legacy</a>
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item active">
@@ -27,7 +27,7 @@
          </div>
       </nav>
       <div class="container-fluid bg-dark text-white" id="all">
-         <h1>Geniush</h1>
+         <h1>Logs</h1>
          <div class="table-responsive">
             <table class="table table-hover table-dark">
 				<?php		   
