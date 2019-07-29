@@ -75,8 +75,6 @@ namespace EasyLicense.License
                     }
                     if (Int64.TryParse(Response.ToString(), out long time) == false)
                     {
-                        Console.WriteLine(Response);
-                        Console.WriteLine();
                         this.ResponseStatus = "Unexpected Server Response!";
                         return false;
                     }

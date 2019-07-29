@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string key = "1111111111111111111111111111111111111111111111111111111111111111";
-            string url = "http://geniush-easylicense.herokuapp.com/www/login/index.php";
-            string productName = "Test";
+            string key = "";
+            string url = "";
+            string productName = "";
 
             var license = new EasyLicense.License.Authorize();
             license.ServerAuthUrl = url;
@@ -20,6 +20,7 @@
                 System.Console.ReadLine();
                 return;
             }
+            else System.Console.WriteLine("Success!");
 
             System.Console.ReadLine();
         }
