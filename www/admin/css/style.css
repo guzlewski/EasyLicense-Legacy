@@ -66,7 +66,7 @@ input[type=checkbox].css-checkbox:checked+label.css-label {
 }
 
 label.css-label {
-	background-image: url(https://api.geniush.ovh/admin/img/box.png);
+	background-image: url('../img/box.png');
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;

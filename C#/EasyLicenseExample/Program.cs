@@ -4,8 +4,13 @@
     {
         static void Main(string[] args)
         {
+            // License key generated in admin panel. Can be loaded from file,
             string key = "1111111111111111111111111111111111111111111111111111111111111111";
+
+            // Url to login api eg. http://demo-easylicense.herokuapp.com/login
             string url = "";
+
+            // Name of product set in admin panel
             string productName = "";
 
             var license = new EasyLicense.License.Authorize();
@@ -17,9 +22,11 @@
             {
                 System.Console.WriteLine("Auth fail!");
                 System.Console.WriteLine("Reason: " + license.ResponseStatus);
-                return;
             }
+            else System.Console.WriteLine("Success!");
 
+            System.Console.ReadLine();
+            return;
         }
     }
 }
