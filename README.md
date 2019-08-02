@@ -20,3 +20,24 @@ This repository contains fully working C# - Web license system. C# part require 
 3. Make sure db admin panel is working, generate some keys
 4. Add C# files to your project and input url and productname (program exemple in C#/EasyLicenseExample)
 Thats all, if you did everything properly it should work.
+
+## Demo
+Demo avaible [here](http://demo-easylicense.herokuapp.com/admin/index.php).
+Example c# code for demo
+```csharp
+string key = "PUIuxZktNjvrZD7KQutLwa8RRZVJk1aXtadzI1Bn4K0dAGtyJoY8r4UEqqSBY36y";
+string url = "http://demo-easylicense.herokuapp.com/login/index.php";
+string productName = "Demo";
+
+var license = new EasyLicense.License.Authorize();
+license.ServerAuthUrl = url;
+license.ProductName = productName;
+bool success = license.Auth(key);
+
+if (!success)
+{
+ System.Console.WriteLine("Auth fail!");
+ System.Console.WriteLine("Reason: " + license.ResponseStatus);
+}
+else System.Console.WriteLine("Success!");
+```
